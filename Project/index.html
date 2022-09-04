@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Progress Bar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="project.js"></script>
+</head>
+<body>
+    <div id="main">
+        <form id="one" action="index2.html">
+            <div id="scroll-line"></div>
+            <h2>Let's get started!</h2>
+            <h6>Add your details(As per registered records)</h6>
+            <div id="maintwo">
+                <h4 style="margin-bottom: 13px;">Name</h4>
+                <input type="text" id="name" placeholder="Enter Name" class="required" onkeyup="enableSubmit()" onchange="myFunction()">
+                <h4 style="margin-bottom: 0;">Nature of Driving License</h4>
+                <div class="wrapper">
+                     <input type="radio" id="option-1" value="Private" name="s" \ onclick="func1()">
+                     <input type="radio" id="option-2" value="Commercial" name="s" onclick="func2()">
+                    <label for="option-1" class="option option-1">
+                        <div class="dot"></div>
+                         <span>Private</span>
+                    </label>
+                    <label for="option-2" class="option option-2">
+                        <div class="dot"></div>
+                         <span>Commercial</span>
+                    </label>    
+                </div>
+                <h4 style="margin-bottom: 0;">Type of previous Driving License</h4>
+                <div class="wrapper">
+                     <input type="radio" id="option-3" value="Proper Driving License" name="p" onclick="func3()">
+                     <input type="radio" id="option-4" value="Smart Driving License" name="p" onclick="func4()">
+                    <label for="option-3" class="option option-3">
+                        <div class="dot"></div>
+                         <span>Proper Driving License</span>
+                    </label>
+                    <label for="option-4" class="option option-4">
+                        <div class="dot"></div>
+                         <span>Smart Driving License</span>
+                    </label>      
+                </div>
+                <div id="btn">
+                   <button id = "btns" disabled>Next ></button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>

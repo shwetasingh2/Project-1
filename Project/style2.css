@@ -1,0 +1,118 @@
+body{
+    background: url("https://cdn.pixabay.com/photo/2020/04/27/18/33/horse-5101069_960_720.jpg");
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    margin-top: 5%;
+}
+#one{
+    width: 50vw;
+    height: 60vh;
+    background-color: white;
+    border: 2px solid #fff;
+    border-radius:20px;
+    box-shadow: 0px 0px 15px 0px rgba(246, 56, 56, 0.7);
+}
+h2{
+    color: red;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    background-color: white;
+}
+h6{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#maintwo{
+    margin-top: 3%;
+    width: 40vw;
+    height: 40vh;
+    margin-left: 10%;
+    justify-content: center;
+}
+input{
+    margin-top: 0;
+    height: 5%;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background-color: rgb(244, 242, 242);
+    padding: 15px;
+}
+input[type="text"]{
+    width: 100%;
+    outline: none;
+    transition: 0.5s;
+    border: 1px solid #ccc;
+    
+}
+input[type=text]:focus {
+    border: 1px solid red;
+    box-shadow: 0px 0px 15px 0px rgba(246, 56, 56, 0.7);
+}
+#year{
+    width: 105%;
+    outline: none;
+    transition: 0.5s;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background-color: rgb(244, 242, 242);
+    padding: 15px;
+    margin-top: 0;
+    
+}
+#year:focus{
+    border: 1px solid red;
+    box-shadow: 0px 0px 15px 0px rgba(246, 56, 56, 0.7);
+}
+#type{
+    width: 105%;
+    outline: none;
+    transition: 0.5s;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background-color: rgb(244, 242, 242);
+    padding: 15px;
+    
+}
+#type:focus{
+    border: 1px solid red;
+    box-shadow: 0px 0px 15px 0px rgba(246, 56, 56, 0.7);
+}
+label{
+    font-weight: bold;
+}
+button{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 15%;
+    padding: 10px;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 0px rgba(248, 2, 2, 0.7);
+}
+#btn{
+  display: flex;
+  justify-content: center;
+}
+#scroll-line{
+    
+    background: red;
+      top: 0;
+      left: 0;
+      height: 10px;
+      position: fixed;
+      transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }

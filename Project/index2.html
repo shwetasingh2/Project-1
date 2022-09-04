@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="project.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <form id="one" action="index.html">
+            <div id="scroll-line" style="width: 50%;"></div>
+            <div class="progress">
+            </div>
+            <h2>Let's get started!</h2>
+            <h6>Add your details(As per registered records)</h6>
+            <div id="maintwo">
+                <h4 style="margin-bottom: 13px;">Place where Driving License was issued</h4>
+                <input type="text" placeholder="Enter Place Name"  onchange="func5()" id="option5">
+                <br/>
+                <br/>
+                <label for="year" >Issued Year of License</label>
+                <br/>
+                <select name="year" id="year" style="margin-top: 10px;" onchange="func6()">
+                    <option value="0" >Choose Issued Year of License</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                </select>
+                <br/>
+                <br/>
+                <label for="type" >Type of Previous Driving License</label>
+                <br/>
+                <select name="type" id="type" style="margin-top: 10px;" onchange="func7()">
+                    <option value="0">Choose Expired Year of License</option>
+                    <option value="2015">2009</option>
+                    <option value="2016">2010</option>
+                    <option value="2017">2011</option>
+                    <option value="2018">2012</option>
+                </select>
+                <div id="btn">
+                    <button> < Back</button>
+                </div>
+            </div>
+
+            
+        </form>
+    </div>
+</body>
+
+</html>
